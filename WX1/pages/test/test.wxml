@@ -1,0 +1,19 @@
+<view class='bg'>
+  <view class='bg-info'>
+    <image class='info-img' src='{{userInfo.avatarUrl}}'></image>
+    <text class='info-username'>{{userInfo.nickName}}</text>
+    <button class='btn' bindtap='loginuser' wx:if="{{!islogin}}">登录</button>
+  </view>
+</view>
+<view class='bg2'>
+  <view class='bg2-title'>
+    <text>必看清单</text>
+  </view>
+  <view class='title'>
+    <view>暂无必看清单</view>
+    <view class='list-item' wx:key="1">
+      <view bindtap='dianji'>
+      </view>
+    </view>
+  </view>
+</view>

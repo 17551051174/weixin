@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/test/test",
+    "pages/index/index",
+    "pages/logs/logs",
+    
+    "pages/ping/ping",  
+    "pages/piv/piv",
+    
+    "pages/text1/text1"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#42bd56",
+    "navigationBarTitleText": "影评集中营",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": false,
+    "backgroundColor":"#ddd"
+    
+  },
+  "tabBar":{
+    "color": "#ccc",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"电影",
+        "iconPath":"imgs/film-close.png",
+        "selectedIconPath":"imgs/film-open.png"
+      },
+      {
+        "pagePath": "pages/text1/text1",
+        "text": "最新影评",
+        "iconPath": "imgs/comment-close.png",
+        "selectedIconPath": "imgs/comment-open.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "我的",
+        "iconPath": "imgs/me-close.png",
+        "selectedIconPath": "imgs/me-open.png"
+      }
+    ]
+  }
+
+}

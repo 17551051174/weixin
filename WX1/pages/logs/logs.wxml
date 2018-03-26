@@ -1,0 +1,19 @@
+<view class='film'>
+  <view class="section" wx:key="1">
+    <view class='flex-text'>
+      <text>{{title}}</text>
+    </view>
+    <view  class="flex-list" wx:key="1" >
+      <view class='list-item' wx:for="{{film}}" wx:key="1"  wx:for-item="film">
+      
+        <aaa film="{{ film }}"></aaa>
+        
+      </view>
+    </view>
+  </view>
+
+
+
+</view>
+
+

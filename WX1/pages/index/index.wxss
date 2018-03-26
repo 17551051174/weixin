@@ -1,0 +1,89 @@
+.load{
+  height: 400rpx;
+  text-align: center;
+}
+.load image{
+  height: 200rpx;
+  width: 200rpx;
+  margin-top: 100rpx;
+}
+.film{
+  height: 100%;
+}
+.film .section:first-child{
+  margin-top:0rpx;
+  padding-top: 20rpx; 
+}
+
+/*模块1*/
+.section{
+  background: #fff;
+}
+/*头部标题*/
+.flex-text{
+  height: 50rpx;
+  font-size: 30rpx;
+  line-height: 50rpx;
+  margin: 20rpx 0rpx;
+  border-left: 10rpx solid #42bd56;
+}
+.flex-text text:first-child{
+  font-weight: bolder;
+  margin-left: 20rpx;
+}
+.flex-text navigator:last-child{
+  float: right;
+  color: #42bd56;
+  margin-right: 20rpx;
+  font-weight: bolder;
+}
+/*内容*/
+.flex-list{
+  flex-direction: row;
+  white-space: nowrap;
+}
+.list-item{
+  display: inline-block;
+  height: 400rpx;
+  width: 200rpx;
+  margin-left: 20rpx;
+  vertical-align: top;
+}
+.flex-list .list-item:last-child{
+  margin-right: 20rpx;
+}
+.item-img{
+  height:280rpx;
+  width: 200rpx; 
+}
+.list-name{
+  display: block;
+  font-size:30rpx;
+  text-align: center;
+  width: 200rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.item-star image{
+  height: 20rpx;
+  width: 20rpx;
+}
+.item-scr{
+  font-size: 30rpx;
+  color: #ddd;
+  font-weight: bolder;
+}
+.item-scr1{
+   font-size: 20rpx; 
+    height: 52rpx;  
+   line-height: 52rpx; 
+  color: #ddd;
+  font-weight: bolder;
+  text-align: center;
+
+}
+.addZero::after{
+  content:".0" ;
+}

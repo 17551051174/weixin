@@ -1,0 +1,11 @@
+<view bindtap='dianji' data-id="{{ film.id }}">
+  <image class='item-img' src='{{film.cover.url}}'></image>
+  <text class='list-name'>{{film.title}}</text>
+  <view class='item-star' wx:if="{{!film.rating}}" wx:key="{{index}}">
+    <view class='item-scr1'>暂无评价</view>
+  </view>
+  <view class='item-star' wx:if="{{film.rating}}" wx:key="{{index}}">
+    <image wx:for="{{[2,4,6,8,10]}}" wx:key="{{index}}" src="../../imgs/star-{{ (film.rating.value+0.5)>=item ? 'open':'close' }}.png"></image>
+    <text class='item-scr {{ film.rating.value%1==0? "addZero":"" }}'>{{ film.rating.value }}</text>
+  </view>
+</view>

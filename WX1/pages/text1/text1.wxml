@@ -1,0 +1,25 @@
+<view class='review' wx:for="{{recommend_feeds}}" wx:key="1">
+  <view class='time'>{{item.date}}</view>
+  <view class='review-list'>
+
+
+    <view class='list-item' wx:for="{{item.recommend_feeds }}" wx:for-item="item1" wx:key="1">
+
+      <view class='item-left {{ !item1.target.cover_url?"item-left1":"" }}">'>
+        <text class='item-name'>{{item1.title}}</text>
+        <text class='item-text'>{{item1.target.desc}}</text> 
+        <view class='item-foot'>
+          <text>by</text>
+          <text>{{item1.target.author.name}}</text>
+        </view>
+      </view>
+
+      <view class='item-right' wx:if="{{ item1.target.cover_url }}">
+          <view class='item-img'>
+            <image src='{{item1.target.cover_url}}'></image>
+          </view>
+      </view>
+    </view>
+   
+  </view>
+</view> 

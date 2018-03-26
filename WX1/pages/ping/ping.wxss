@@ -1,0 +1,164 @@
+.beigen {
+  position: relative;
+}
+
+.bg {
+  height: 400rpx;
+  z-index: 2;
+}
+
+.bg-img {
+  width: 100%;
+  height: 400rpx;
+}
+
+.bg-z {
+  height: 400rpx;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 4;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.con {
+  position: absolute;
+  left: 30rpx;
+  z-index: 8;
+  height: 320rpx;
+  width: 100%;
+  top: 150rpx;
+}
+
+.con-img {
+  height: 320rpx;
+  width: 240rpx;
+  display: inline-block;
+}
+
+.con1 {
+  display: inline-block;
+  height: 200rpx;
+  vertical-align: top;
+  color: #fff;
+}
+
+.con-text1 {
+  display: block;
+  margin: 30rpx 0rpx;
+  margin-left: 30rpx;
+}
+
+.con-text2, .con-text3 {
+  margin-left: 30rpx;
+}
+
+.film-text {
+  width: 95%;
+  margin-left: 20rpx;
+  margin-top: 80rpx;
+  font-size: 30rpx;
+}
+
+.film-text-1-1 {
+  color: #42bd56;
+}
+
+.btn {
+  border: 1rpx solid coral;
+  height: 40rpx;
+  width: 50%;
+  line-height: 40rpx;
+  font-size: 30rpx;
+  color: coral;
+}
+
+.ping-title {
+  height: 80rpx;
+  line-height: 80rpx;
+  padding-left: 50rpx;
+  font-size: 38rpx;
+  border-left: 8rpx solid #42bd56;
+}
+
+ .view-scroll{
+  white-space: nowrap;
+  width: 100%;   
+} 
+
+.item-img {
+  height: 280rpx;
+  width: 200rpx;
+}
+
+.list-name {
+  width: 200rpx;
+  display: block;
+  font-size: 30rpx;
+  text-align: center;
+}
+
+.list-type {
+  width: 200rpx;
+  display: block;
+  font-size: 30rpx;
+  color: #ccc;
+  text-align: center;
+}
+.item{
+  margin-left: 38rpx;
+  display: inline-block;
+}
+.ping-info{
+  display: inline-block;
+  width: 200rpx;
+  height: 200rpx;
+  margin: 30rpx 20rpx 0rpx 20rpx;
+  vertical-align: top;
+}
+.ping-img{
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 70rpx;
+}
+.ping-text{
+  display: inline-block;
+  width: 510rpx;
+  margin-top: 20rpx;
+  border-bottom: 1rpx solid #ccc
+}
+.ping-text5{
+  display: inline-block;
+  width: 510rpx;
+  margin-top: 20rpx;
+}
+.btn-1{
+  border: 1rpx solid #42bd56;
+  width: 200rpx;
+  height: 50rpx;
+  font-size: 30rpx;
+  line-height: 50rpx;
+  margin-top: 10rpx;
+  float: right;
+  right: 55rpx;
+}
+.ping-text1{
+  display: block;
+    font-size: 30rpx;
+}
+.ping-text2{
+  display: block;
+  color: #ccc;
+  font-size: 30rpx;
+  margin: 13rpx 0rpx;
+}
+.ping-text3{
+  display: block;
+    font-size: 30rpx;
+}
+.texttar{
+  border: 1rpx solid #42bd56;
+  width: 450rpx;
+  height: 200rpx;
+}

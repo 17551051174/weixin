@@ -1,0 +1,64 @@
+/* pages/text1/text1.wxss */
+/*时间*/
+.time{
+  text-align: center;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 3rpx solid #ccc;
+}
+.list-item{
+  margin: 0rpx 50rpx;
+  margin-top:20rpx;
+  border-bottom: 3rpx solid #ccc; 
+  height: 300rpx; 
+}
+.item-name{
+  display: block;
+  font-size: 30rpx;
+  font-weight: bolder;
+  height: 80rpx;
+  overflow: hidden;
+}
+.item-text{
+  display: block;
+  font-size: 25rpx;
+  color: #999;
+  height: 170rpx; 
+  overflow: hidden;
+  text-indent: 50rpx;
+}
+.item-foot{
+  color: #ccc;
+  font-size: 25rpx;
+  height: 25rpx;
+}
+.item-foot text:first-child{
+  margin-right: 10rpx;
+}
+.item-foot text:last-child{
+  color: #42bd56;
+}
+.item-left{
+ display: inline-block;
+ width: 68%;
+ height: 300rpx;
+}
+.item-right{
+  display: inline-block;
+  height: 300rpx;
+  vertical-align: top;
+}
+.item-img{
+  height: 280rpx;
+  text-align: center;
+  margin-left: 10rpx;
+}
+.item-img image{
+  width: 180rpx;
+  height: 240rpx;
+  
+}
+.item-left1 {
+      width: 100%;
+height:300rpx;
+}

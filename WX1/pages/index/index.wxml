@@ -1,0 +1,20 @@
+<view class='film'>
+
+  <view class="section" wx:for="{{ types }}" wx:key="1" wx:for-item="types">
+    <view class='flex-text'>
+      <text>{{types.name}}</text>
+      <navigator url='/pages/logs/logs?types={{  index  }}&title={{ types.name }}'>更多 > </navigator>
+    </view>
+    <view wx:if="{{ types.flag }}" class='load' wx:key="1">
+      <image src='../../imgs/loading.gif'></image>
+    </view>
+    <scroll-view scroll-x class="flex-list" wx:if="{{ !types.flag }}" wx:key="1">
+      <view class='list-item' wx:for="{{types.film}}" wx:key="1" wx:for-item="film">
+        <aaa film="{{ film }}"></aaa>
+      </view>
+    </scroll-view>
+  </view>
+
+
+
+</view>

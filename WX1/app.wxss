@@ -1,0 +1,6 @@
+page{
+  background: #eee;
+}
+.section{
+  margin-top:20rpx; 
+}
